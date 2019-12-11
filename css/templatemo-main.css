@@ -1,4 +1,4 @@
-@keyframes seq-preloader {
+/*@keyframes seq-preloader {
   50% {
     opacity: 1;
   }
@@ -378,7 +378,7 @@ nav a:hover::before {
 }
 
 .first-content .fb-btn a {
-	display: inline-block;
+	/*display: inline-block;
 	background-color: #fff;
 	border: 2px solid #fff;
 	padding: 8px 15px;
@@ -387,13 +387,26 @@ nav a:hover::before {
 	letter-spacing: 1px;
 	color: #232323;
 	text-decoration: none;
+	transition: all 0.5s;*/
+	display: inline-block;
+	border: 2px solid #fff;
+	padding: 8px 15px;
+	font-size: 13px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	color: #fff;
+	text-decoration: none;
+	transition: all 0.5s;
 	transition: all 0.5s;
 }
 
 .first-content .fb-btn a:hover {
-	color: #fff;
-	background-color: transparent;
+	/*color: #fff;
+	background-color: ;*/
+	background-color: #fff;
+	color: #232323!important;
 }
+
 
 
 .second-content .container-fluid {
@@ -456,7 +469,35 @@ nav a:hover::before {
 	text-decoration: none;
 	transition: all 0.5s;
 }
-
+/*添加了一些东西*/
+.second-content .fb-btn a {
+	/*display: inline-block;
+	background-color: #fff;
+	border: 2px solid #fff;
+	padding: 8px 15px;
+	font-size: 13px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	color: #232323;
+	text-decoration: none;
+	transition: all 0.5s;*/
+	display: inline-block;
+	border: 2px solid #fff;
+	padding: 8px 15px;
+	font-size: 13px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	color: #fff;
+	text-decoration: none;
+	transition: all 0.5s;
+	transition: all 0.5s;
+}
+.second-content .fb-btn a:hover {
+	/*color: #fff;
+	background-color: ;*/
+	background-color: #fff;
+	color: #232323!important;
+}
 
 .third-content {
 	text-align: left;
@@ -528,7 +569,35 @@ nav a:hover::before {
 	margin: 0px;
 	padding: 0px;
 }
-
+/*添加了一些东西*/
+.third-content .fb-btn a {
+	/*display: inline-block;
+	background-color: #fff;
+	border: 2px solid #fff;
+	padding: 8px 15px;
+	font-size: 13px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	color: #232323;
+	text-decoration: none;
+	transition: all 0.5s;*/
+	display: inline-block;
+	border: 2px solid #fff;
+	padding: 8px 15px;
+	font-size: 13px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	color: #fff;
+	text-decoration: none;
+	transition: all 0.5s;
+	transition: all 0.5s;
+}
+.third-content .fb-btn a:hover {
+	/*color: #fff;
+	background-color: ;*/
+	background-color: #fff;
+	color: #232323!important;
+}
 
 .fourth-content {
 	padding: 5px;
@@ -607,7 +676,35 @@ nav a:hover::before {
 	padding-bottom: 0px;
 	margin-bottom: 0px;
 }
-
+/*添加了一些东西*/
+.fourth-content .fb-btn a {
+	/*display: inline-block;
+	background-color: #fff;
+	border: 2px solid #fff;
+	padding: 8px 15px;
+	font-size: 13px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	color: #232323;
+	text-decoration: none;
+	transition: all 0.5s;*/
+	display: inline-block;
+	border: 2px solid #fff;
+	padding: 8px 15px;
+	font-size: 13px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	color: #fff;
+	text-decoration: none;
+	transition: all 0.5s;
+	transition: all 0.5s;
+}
+.fourth-content .fb-btn a:hover {
+	/*color: #fff;
+	background-color: ;*/
+	background-color: #fff;
+	color: #232323!important;
+}
 
 
 .fifth-content .container-fluid {
@@ -704,7 +801,35 @@ nav a:hover::before {
 	color: #aaa;
 	text-decoration: none;
 }
-
+/*添加了一些东西*/
+.fifth-content .fb-btn a {
+	/*display: inline-block;
+	background-color: #fff;
+	border: 2px solid #fff;
+	padding: 8px 15px;
+	font-size: 13px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	color: #232323;
+	text-decoration: none;
+	transition: all 0.5s;*/
+	display: inline-block;
+	border: 2px solid #fff;
+	padding: 8px 15px;
+	font-size: 13px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	color: #fff;
+	text-decoration: none;
+	transition: all 0.5s;
+	transition: all 0.5s;
+}
+.fifth-content .fb-btn a:hover {
+	/*color: #fff;
+	background-color: ;*/
+	background-color: #fff;
+	color: #232323!important;
+}
 
 
 /* REPONSIVE */
@@ -834,4 +959,4 @@ nav a:hover::before {
 	nav a {
 	  	padding: 15px 20px;
 	}
-}
+}*/
