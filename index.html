@@ -17,6 +17,17 @@
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
 
 	<script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+	<script>
+        function checkForm() {
+            var username = document.getElementById("liuyan");
+            if (!username.value) {
+                alert("用户名不能为空！")
+                return false;
+            }else {
+            	alert("留言显示成功")
+            }
+           }
+ 	</script>
 </head>
 
 <body>
@@ -352,6 +363,22 @@
 							<div class="col-md-12">
 							  <fieldset>
 								<button type="submit" id="form-submit" class="btn">发送</button>
+							  </fieldset>
+							</div>
+						</div>
+					</form>
+				</div>
+				<div class="col-md-6">
+					<form id="contact" action="" method="post" onsubmit="return checkForm()">
+						<div class="row">
+							<div class="col-md-12">
+							  <fieldset>
+								<input name="" type="text" class="" id="liuyan" placeholder="留言" required="">
+							  </fieldset>
+							</div>
+						<div class="col-md-12">
+							  <fieldset>
+								<button type="submit" id="" class="">发送</button>
 							  </fieldset>
 							</div>
 						</div>
